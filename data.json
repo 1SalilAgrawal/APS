@@ -1,5 +1,13 @@
 [
-  { "id": 1, "name": "Alice", "email": "alice@example.com" },
-  { "id": 2, "name": "Bob", "email": "bob@example.com" },
-  { "id": 3, "name": "Charlie", "email": "charlie@example.com" }
+  {
+    "Serial No": 1,
+    "Date": "2024-05-01",
+    "Doc type": "INV",
+    "Doc no": "1001",
+    "Account No": "A001",
+    "item no": "I001",
+    "qty": 10,
+    "rate": 50,
+    "amount": 500
+  }
 ]

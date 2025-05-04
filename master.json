@@ -1,0 +1,12 @@
+[
+  {
+    "Account no": "A001",
+    "account name": "ABC Corp",
+    "item no": "I001",
+    "item name": "Widget A",
+    "gst percentage": 18,
+    "op bal": 1000,
+    "category": "Product",
+    "sub category": "Widgets"
+  }
+]
