@@ -1,0 +1,10 @@
+function addEntry(data, newEntry) {
+  data.push(newEntry);
+}
+
+addEntry(data, {
+  id: 1,
+  name: "John Doe",
+  amount: 100,
+  date: "2025-05-05"
+});
