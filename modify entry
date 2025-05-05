@@ -1,0 +1,8 @@
+function modifyEntry(data, id, updatedFields) {
+  const index = data.findIndex(entry => entry.id === id);
+  if (index !== -1) {
+    data[index] = { ...data[index], ...updatedFields };
+  }
+}
+
+modifyEntry(data, 1, { amount: 150 });
