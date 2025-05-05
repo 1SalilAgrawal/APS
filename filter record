@@ -1,0 +1,8 @@
+function filterData(data, criteria) {
+  return data.filter(entry =>
+    Object.entries(criteria).every(([key, value]) => entry[key] === value)
+  );
+}
+
+// Example: filter by name
+const filtered = filterData(data, { name: "John Doe" });
