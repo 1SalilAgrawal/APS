@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales Data</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sales Data</h1>
+
+  <table id="sales-table">
+    <thead>
+      <tr>
+        <th>Invoice No</th>
+        <th>Customer</th>
+        <th>Date</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Data will be inserted here -->
+    </tbody>
+  </table>
+
+  <script>
+    // Sample sales data
+    const salesData = [
+      { invoice: 'INV001', customer: 'John Doe', date: '2025-05-01', amount: 1200 },
+      { invoice: 'INV002', customer: 'Jane Smith', date: '2025-05-02', amount: 800 },
+      { invoice: 'INV003', customer: 'ABC Corp', date: '2025-05-03', amount: 1500 }
+    ];
+
+    // Reference to table body
+    const tableBody = document.querySelector('#sales-table tbody');
+
+    // Insert data into table
+    salesData.forEach(sale => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${sale.invoice}</td>
+        <td>${sale.customer}</td>
+        <td>${sale.date}</td>
+        <td>${sale.amount}</td>
+      `;
+      tableBody.appendChild(row);
+    });
+  </script>
+
+</body>
+</html>
