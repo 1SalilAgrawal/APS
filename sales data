@@ -32,8 +32,8 @@
   <script>
     // Sample sales data
     const salesData = [
-      { invoice: 'INV001', customer: 'John Doe', date: '2025-05-01', amount: 1200 },
-      { invoice: 'INV002', customer: 'Jane Smith', date: '2025-05-02', amount: 800 },
+      { invoice: 'INV004', customer: 'John Doe', date: '2025-05-4', amount: 1500 },
+      { invoice: 'INV002', customer: 'Jane Smith', date: '2025-05-02', amount: 1800 },
       { invoice: 'INV003', customer: 'ABC Corp', date: '2025-05-03', amount: 1500 }
     ];
 
